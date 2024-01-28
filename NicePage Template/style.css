@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #FF512F, #DD2476);
+    height: 100vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+
+.logo {
+    /* position: absolute; */
+    /* width: 110px; */
+    /* margin-left: 25px; */
+    /* margin-top: 20px; */
+    /* border: 1px solid red; */
+    padding-left: 5px;
+}
+
+.icons {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    /* top: 0; */
+    display: flex;
+    justify-content: 'center';
+    cursor: pointer;
+    /* padding-left: 5px; */
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+}
+
+.logo-container {
+    position: fixed;
+}
+
+.container {
+    /* position: absolute; */
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    /* align-self: center; */
+    ;
+    /* flex-direction: row;
+    align-self: center;
+    margin-left: 10px; */
+}
+
+.colored-box {
+    position: relative;
+    top: 5;
+    left: 10;
+    width: 1365px;
+    height: 70px;
+    background-color: #ffffff;
+}
+
+.content {
+    padding: 162.5px;
+    margin-top: 246px;
+}
+
+.center-image {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    height: auto;
+}
+
+.second-image {
+    position: absolute;
+    top: 30%;
+    left: 43.5%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    height: auto;
+
+}
+
+.third-image {
+    position: absolute;
+    top: 30%;
+    left: 46.5%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    height: auto;
+
+}
+
+.fourth-image {
+    position: absolute;
+    top: 30%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    height: auto;
+
+}
+
+.fifth-image {
+    position: absolute;
+    top: 30%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    height: auto;
+}
+
+.title {
+    width: 100%;
+    margin-left: 38%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+.text {
+    width: 100%;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 19%;
+    font-size: 18px;
+}
+
+.gradient-box {
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(45deg, #A6C0FE, #F68084);
+    color: white;
+    text-align: center;
+    align-items: center;
+    /* line-height: 200px; */
+    margin-left: 19%;
+    margin: 20px;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+
+}
+
+.price-amount {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    font-size: 56px;
+    font-weight: bold;
+    color: #ffffff;
+    height: 10px;
+    line-height: 0px;
+    margin-top: 0%;
+
+}
+
+.price-period {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    font-size: 18px;
+    color: #ffffff;
+
+}
+
+.mr {
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 15pt;
+    margin: 30px 30px 0px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+button {
+    border-radius: 30px;
+    border-color: white;
+    height: 60px;
+    width: 180px;
+    font-weight: bolder;
+    color: rgb(85, 85, 85);
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(194, 187, 187);
+}
+
+hr {
+    width: 150px;
+    border-style: groove;
+
+}
+
+.footer {
+    height: 100px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #222222;
+}
+
+.footer>div {
+    margin: auto;
+}
+
+span {
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
+
+a {
+    color: skyblue;
+}
